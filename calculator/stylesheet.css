@@ -1,0 +1,71 @@
+body{
+  
+background-color: black;
+   
+}
+#pic{
+    widows: 1000px;
+    height: 550px;
+    margin:20px auto;
+    background-image: url(pp.jpg);
+}
+
+#cal{
+    width: 380px;
+    height: 500px;
+    background-color: rgb(212, 209, 203);
+    margin-left: 400px;
+    top: 30px;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+#output{
+    
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+
+}
+#keyboard{
+    height: 300px;
+}
+.operator,.number,.empty{
+    width: 60px;
+    height: 40px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    font-weight: bold;
+    border-width: 0;
+
+}
+
+.number,.empty{
+    background-color: rgb(212, 209, 203);
+}
+
+.number,.operator{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+
+}
